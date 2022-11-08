@@ -1,0 +1,12 @@
+#Fibonacci sequence : 0 1 1 2 3 5 8 13 21 34 55...
+
+pn = 0
+cn = 1
+n = int(input("Enter the range: "))
+print (pn, end=' ')
+print (cn, end=' ')
+while cn<n:
+    result = cn + pn
+    pn = cn
+    cn = result
+    print (cn, end=' ')
