@@ -1,4 +1,4 @@
-Swapping two numbers using third variable
+#Swapping two numbers using third variable
 
 x = 10
 y = 20
@@ -8,7 +8,7 @@ y = a
 print (x)
 print (y)
 
-Swapping without any third variable
+#Swapping without any third variable
 
 x = 10
 y = 20
